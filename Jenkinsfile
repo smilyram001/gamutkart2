@@ -8,7 +8,7 @@ pipeline {
 		    }
 		stage('Build') {
 	        steps {
-				sh '/home/gamut/Distros/apache-maven-3.6.0/bin/mvn install'
+				sh '/home/ramesh/Desktop/DEVOPS/apache-maven-3.6.0-bin/apache-maven-3.6.0/bin/mvn install'
 	        }
 		}
 		stage('Deployment') {
